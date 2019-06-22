@@ -29,7 +29,7 @@ I know.  Similar to yoga, calling it the Blackjack Bit is quite a stretch.
 
 But.  Also similar to yoga, it's awesome.  So don't worry about it.       
 
-NotoriousRNG allows you to either get a random number based on a given range, or to get a byte array containing a given number of random bits.  The method that gives you the random byte array is called *getRandomBits()*.  The method that gives you a random number is called *getRandomNumber()*.  As you can see, **both of these methods use *getBlackjackBit()***.  I have also created getters and setters for the min and max values of the range, and for the bit length of the byte array. 
+NotoriousRNG allows you to get either a random number based on a given range, or a byte array containing a given number of random bits.  The method that gives you the random byte array is called *getRandomBits()*.  The method that gives you a random number is called *getRandomNumber()*.  As you can see, **both of these methods use *getBlackjackBit()***.  I have also created getters and setters for the min and max values of the range, and for the bit length of the byte array. 
 
 When creating an instance of NotoriousRNG, you can either input nothing, input two BigIntegers to be used as the min and max values of the range for a random number, or input an integer to be used as the bit length for the random byte array. 
 
