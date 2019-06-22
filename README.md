@@ -1,2 +1,4 @@
+![Notorious RNG](https://github.com/Cant-Git-Right/NotoriousRNG/blob/master/logo.png)
+
 # NotoriousRNG
-A method and java implementation for a portable, cryptographically secure random number generator
+
