@@ -8,7 +8,7 @@ Sup.
 <br/>
 <br/>
 
-Yeah. &nbsp I’m saying Hi.  But I’m also talking about the ***S***tandard 
+Yeah. &nbsp. I’m saying Hi.  But I’m also talking about the ***S***tandard 
 ***u***niform ***p***robability distribution.  Maximum randomness between zero and one.  
 
 Computers are digital and use zeros and ones.  So an ideal random number generator would require a process creating random zeros and ones.  Therefore, it would be like the standard uniform distribution, but discrete, with only two possible outputs.  
