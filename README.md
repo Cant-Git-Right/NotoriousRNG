@@ -57,3 +57,5 @@ To read my paper on the proof of the Riemann Hypothesis:
 
 https://drive.google.com/open?id=14vy-LPYe-rytbnBVMpYBJM7mx17Wxoo6
 
+Btw, what's 21 in binary though?
+
