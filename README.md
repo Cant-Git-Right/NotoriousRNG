@@ -40,7 +40,7 @@ What do you call a nonce that was generated sometime in early August?
 
 Nonce de Leόn.    
 
-What about if the ‘Nooice’ Key and Peele skit was actually ‘Noonce’.  
+What about if the ‘Nooice’ Key & Peele skit was actually ‘Noonce’.  
 
 How would that even look like?  
 
