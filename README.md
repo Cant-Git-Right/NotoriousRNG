@@ -5,8 +5,8 @@
 
 Sup.  
 
-Yeah.  I’m saying Hi.  But I’m also talking about the **_S_** tandard 
-**_u_** niform **_p_** robability distribution.  Maximum randomness between zero and one.  
+Yeah.  I’m saying Hi.  But I’m also talking about the **_S_**tandard 
+**_u_**niform **_p_**robability distribution.  Maximum randomness between zero and one.  
 
 Computers are digital and use zeros and ones.  So an ideal random number generator would require a process creating random zeros and ones.  Therefore, it would be like the standard uniform distribution, but discrete, with only two possible outputs.  
 
