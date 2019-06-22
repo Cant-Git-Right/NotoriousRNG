@@ -33,11 +33,9 @@ NotoriousRNG allows you to get either a random number based on a given range, or
 
 When creating an instance of NotoriousRNG, you can either input nothing, input two BigIntegers to be used as the min and max values of the range for a random number, or input an integer to be used as the bit length for the random byte array. 
 
-On an average Windows PC, generating a cryptographically secure 256-bit byte array with NotoriousRNG may take around 3 seconds.  **The time it takes will increase linearly with an increase in bit length.**  
+Generating a cryptographically secure 256-bit byte array with NotoriousRNG, on a single core with Windows OS on an average quad-core PC, may take around 3 seconds.  **The time it takes will increase linearly with an increase in bit length.**  To reduce the amount of time it would take, you can use more cores to run the *getBlackjackBit()* function in parallel, and use shared memory to send the random bits to the main process.  For example, if you implement Notorious RNG in C/C++ with a Linux OS on a quad-core PC, and write the necessary code to use all four cores, there's no reason you shouldn't be able to generate a 256-bit key in less than a second.  And with 6 cores.  Well you get the point.  Long story short, **Take full advantage of your available hardware.**
 
-Feel free to implement Notorious RNG in other computer languages. 
-
-Feel free to make changes/additions for your own applications.
+Thanks, Y’all.  Have fun with it.
 
 What do you call a nonce that was generated sometime in early August?
 
@@ -46,9 +44,7 @@ Nonce de Leόn.
 What about if the ‘Nooice’ Key & Peele skit was actually ‘Noonce’.  
 
 How would that even look like?  
-
-Thanks, Y’all.  Have fun with it.  
-
+  
 To read my paper on the most efficient deterministic method for solving the Travelling Salesman Problem:
 
 https://drive.google.com/open?id=1iE1BREHnZ2Tfpkt39AdvpvsQm2c7eBmy 
