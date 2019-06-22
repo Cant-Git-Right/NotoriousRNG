@@ -17,7 +17,7 @@ There exists inherent, physical randomness in our computers’ hardware’s beha
 
 One cool thing about using our computers’ randomness is the portability.  Every computer, assuming it has an associated storage disk, can implement this method.
 
-The method I have developed is called the Notorious RNG.  I have implemented it in java to add additional portability.  You can find the java file in the com > Conveau > Crypteau folder. The name of the java file and class is NotoriousRNG.
+The method I have developed is called the Notorious RNG.  I have implemented it in java to add additional portability.  You can find the java file in the com > Conveau > Crypteau folder. The name of the file and class is NotoriousRNG.
 
 The physical randomness of computer operations can be observed by the variable amount of time it takes to perform a constant set of operations.  **In order to best utilize the randomness of our computers, we want to use the highest-resolution time that we can acquire.**  In java, I’m using System.*nanoTime()*.  We may get down to nanosecond resolution, however that won’t be the case for every computer.  Therefore, we must first check our system-dependent resolution of System.*nanoTime()*, and make sure we use only the resolution that we are given.  This is because we will eventually be doing % 2 to get a random bit, which will be variable only if we use only the digits in System.*nanoTime()* that are within the provided resolution. (It may have sounded like I added one too many ‘only’s in the last sentence, but, like Kelsea Ballerini, I didn’t.) I account for this with the *checkNanoTime()* method, which I then run at the end of each of the constructors.     
 
