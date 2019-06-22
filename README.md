@@ -35,7 +35,7 @@ When creating an instance of NotoriousRNG, you can either input nothing, input t
 
 Generating a cryptographically secure 256-bit byte array with NotoriousRNG, on a single core with Windows OS on an average quad-core PC, may take around 3 seconds.  &nbsp; **The time it takes will increase linearly with an increase in bit length.**  To reduce the amount of time, you can use more cores to run the *getBlackjackBit()* function in parallel, and use shared memory to send the random bits to the main process.  &nbsp; For example, if you implement Notorious RNG in C/C++ with a Linux OS on a quad-core PC, and write the necessary code to use all four cores, there's no reason you shouldn't be able to generate a 256-bit key in less than a second.  &nbsp; And with 6 cores.  &nbsp; Well you get the point.  &nbsp; Long story short, **take full advantage of your available hardware.**
 
-Thanks for your time, Y’all.  &nbsp; Have fun with it.
+Alright, Y’all.  &nbsp; Have fun with it.
 
 What do you call a nonce that was generated sometime in early August?
 
